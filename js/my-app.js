@@ -40,6 +40,13 @@ $$(document).on('pageInit', function (e) {
             capturePhotoWithFile();    
 
         });
+        
+        $("#btnsavetarga").on("click",function(){
+           
+            gotothumbs();
+            
+        });
+        
     }
 })
 
